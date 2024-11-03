@@ -23,20 +23,7 @@ export default function HomePage() {
   // Iterate over each mock user to display their abridged profile data and a link to their page
   return (
     <div className="container pt-4">
-      <ul className="list-group list-group">
-        {users.map((user) => (
-          <ListItem key={user.id}>
-            <Profile user={user} />
-            {/* Link elements are anchors under-the-hood, but they allow the routing behavior to be controlled by the client rather than the server */}
-            <Link
-              to={`/profile/${user.id}`}
-              className="badge bg-primary rounded-pill"
-            >
-              See More
-            </Link>
-          </ListItem>
-        ))}
-      </ul>
+      I'm over here in the homepage
     </div>
   );
 }
