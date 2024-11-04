@@ -5,7 +5,7 @@ import { Eye } from 'react-ionicons'
 export default function Project(props) {
     return <div style={{border: "1px solid blue"}}>
                 <div style={{border: "1px solid red"}}>
-                    <img src={props.thubmnail}/>
+                    <img src={props.thumbnail}/>
                 </div>
                 <div style={{border: "1px solid green"}}>
                     <p>{props.title}</p>
