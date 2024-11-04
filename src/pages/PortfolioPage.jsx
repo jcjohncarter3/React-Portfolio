@@ -41,7 +41,7 @@ const projectsList = [{
 import Project from "../components/Project"
 export default function PortfolioPage() {
     return (
-      <div className="container pt-4">
+      <div className="page">
         <h2>Portfolio</h2>
         <div>
             {projectsList.map(project => {

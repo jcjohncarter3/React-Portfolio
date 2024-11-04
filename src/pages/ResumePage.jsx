@@ -1,6 +1,6 @@
 export default function ResumePage() {
     return (
-      <div className="container pt-4">
+      <div className="page">
         <h2>Resume</h2>
         <div>
             <h6>Front End</h6>
