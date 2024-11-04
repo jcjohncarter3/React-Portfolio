@@ -6,18 +6,18 @@ import { LogoGithub } from 'react-ionicons'
 
 function Footer() {
   return (
-    <footer>
-
+    <footer className="footer">
       <Link to="https://github.com/jcjohncarter3">
-      <LogoGithub
-        color={'#00000'} 
-        title={"GitHub"}
-        height="25px"
-        width="25px"
-/></Link>
+            <LogoGithub
+                color={'#fff'} 
+                title={"GitHub"}
+                height="25px"
+                width="25px"
+            />
+    </Link>
       <Link to="/portfolio">
         <LogoLinkedin
-            color={'#00000'} 
+            color={'#fff'} 
              title={"LinkedIn"}
              height="25px"
             width="25px"
