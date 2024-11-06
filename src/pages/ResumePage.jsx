@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom';
+
 export default function ResumePage() {
     return (
       <div className="page">
         <h2>Resume</h2>
+        <p>Here's a PDF copy of my <Link to="/JohnCarterResume_latest.pdf" download target="_blank">resume</Link>.</p>
         <div>
             <h6>Front End</h6>
             <ul>
