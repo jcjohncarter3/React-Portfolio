@@ -8,10 +8,13 @@ function Footer() {
       <p>©John Carter 2024</p>
       <nav>
         <Link to="https://github.com/jcjohncarter3">
-        <i className="bi bi-github"></i>
+          <i className="bi bi-github"></i>
         </Link>
-          <Link to="https://www.linkedin.com/in/john-carter-9826b295/">
+        <Link to="https://www.linkedin.com/in/john-carter-9826b295/">
           <i className="bi bi-linkedin"></i>
+        </Link>
+        <Link to="https://dev.to/johncarter3">
+          <i className="bi bi-braces-asterisk"></i>
         </Link>
       </nav>
     </footer>
