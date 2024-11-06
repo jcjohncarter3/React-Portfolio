@@ -10,20 +10,10 @@ function Footer() {
       <p>© John Carter 2024</p>
       <nav>
         <Link to="https://github.com/jcjohncarter3">
-              <LogoGithub
-                  color={'#fff'} 
-                  title={"GitHub"}
-                  height="25px"
-                  width="25px"
-              />
+        <i className="bi bi-github"></i>
         </Link>
           <Link to="/portfolio">
-            <LogoLinkedin
-                color={'#fff'} 
-                title={"LinkedIn"}
-                height="25px"
-                width="25px"
-            />
+          <i className="bi bi-linkedin"></i>
         </Link>
       </nav>
     </footer>
