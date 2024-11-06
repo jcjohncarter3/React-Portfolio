@@ -44,8 +44,8 @@ export default function PortfolioPage() {
       <div className="page">
         <h2>Portfolio</h2>
         <div>
-            {projectsList.map(project => {
-                return <Project title={project.title} github_link={project.github_link} thumbnail={project.thumbnail} live_link={project.live_link} />
+            {projectsList.map((project, index) => {
+                return <Project key = {index} title={project.title} github_link={project.github_link} thumbnail={project.thumbnail} live_link={project.live_link} />
             })}
         </div>
       </div>

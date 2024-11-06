@@ -3,29 +3,20 @@ import { LogoGithub } from 'react-ionicons'
 import { Eye } from 'react-ionicons'
 
 export default function Project(props) {
-    return <div style={{border: "1px solid blue"}}>
-                <div style={{border: "1px solid red"}}>
+
+    return <div className="project-card">
+                <div >
                     <img src={props.thumbnail}/>
                 </div>
-                <div style={{border: "1px solid green"}}>
+                <div className = "info">
                     <p>{props.title}</p>
-                    <div>
+                    <div className = "links">
                         <Link to={props.github_link}>
-                            <LogoGithub
-                                color={'#00000'} 
-                                title={"GitHub"}
-                                height="25px"
-                                width="25px"
-                            />
+                        <i className="bi bi-github"></i>
                         </Link>
                        {props.live_link ? 
                             <Link to={props.live_link}>
-                                <Eye
-                                    color={'#00000'} 
-                                    title={"Eye"}
-                                    height="25px"
-                                    width="25px"
-                                />
+                               <i className="bi bi-eye-fill"></i>
                             </Link>: null}
                     </div>
                 </div>
