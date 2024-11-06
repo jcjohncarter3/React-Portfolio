@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import { LogoGithub } from 'react-ionicons'
-import { Eye } from 'react-ionicons'
 
 export default function Project(props) {
 

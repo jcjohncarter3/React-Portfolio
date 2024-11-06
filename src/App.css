@@ -33,6 +33,13 @@ header h1 {
   font-size: 30px;
   font-weight: bold;
 }
+
+header h1 a {
+  color: var(--color-cosmic-latte);
+}
+header h1 a:hover {
+  color: var(--secondary-color);
+}
 header .main-nav {
   display: flex;
   gap: 0.75rem;
@@ -85,6 +92,10 @@ header .main-nav a {
   color: var(--primary-color);
   /* height: calc(100vh - 100px); */
   flex: 1;
+}
+.page a {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 .project-card {
   border: 16px solid #fff;
@@ -143,5 +154,5 @@ header .main-nav a {
 }
 
 .form-error-message {
-  color: var(--error-color)
+  color: var(--error-color);
 }
