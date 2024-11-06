@@ -5,6 +5,8 @@ export default function AboutPage() {
   return (
     <div className="page">
       <h2>About Me</h2>
+      <img className="profile-image" src="profile.png" alt="Logo" />;
+
       <p>John Carter is a junior full stack web developer and musician based in Dallas, Texas. 
         He began his journey into tech in 2024 when he completed his certification 
         from <Link to="https://www.smu.edu/">

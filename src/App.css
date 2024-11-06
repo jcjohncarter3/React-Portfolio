@@ -97,6 +97,15 @@ header .main-nav a {
   color: var(--primary-color);
   text-decoration: underline;
 }
+.page .profile-image {
+  aspect-ratio: 1/1;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 540px) {
+  .page .profile-image {
+    max-width: 300px;
+  }
+} 
 .project-card {
   border: 16px solid #fff;
 }
