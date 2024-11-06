@@ -43,7 +43,7 @@ export default function PortfolioPage() {
     return (
       <div className="page">
         <h2>Portfolio</h2>
-        <div>
+        <div className = "project-list">
             {projectsList.map((project, index) => {
                 return <Project key = {index} title={project.title} github_link={project.github_link} thumbnail={project.thumbnail} live_link={project.live_link} />
             })}

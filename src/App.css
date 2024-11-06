@@ -105,6 +105,30 @@ header .main-nav a {
   display: flex;
   gap: 0.5rem;
 }
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 540px) {
+  .project-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 
+
+@media screen and (min-width: 768px) {
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 
+
+
+
+  
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
