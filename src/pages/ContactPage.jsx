@@ -4,22 +4,20 @@ export default function ContactPage() {
       <div className="page">
         <h2>Contact</h2>
         <form>
-            <div>
-                <label>Full Name</label>
-                <input type="text" id="full_name"/>
-            </div>
-            <div>
-                <label>Email</label>
-                <input type="email" id="email_address"/>
-            </div>
-            <div>
-                <label>Your Message</label>
-               <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-            </div>
-            <div>
-                <button type="submit">submit</button>
-            </div>
-
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">Full Name</label>
+            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+            {/* <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div> */}
+          </div>
+          <div className="mb-3">
+            <label htmlFor="exampleInputPassword1" className="form-label">Email</label>
+            <input type="email" className="form-control" id="exampleInputPassword1"/>
+          </div>
+          <div className="mb-3 ">
+          <label htmlFor="messageField" className="form-label">Message</label>
+          <textarea className="form-control" placeholder="Leave a comment here" id="messageField"></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
     );

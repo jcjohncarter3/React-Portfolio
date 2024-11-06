@@ -93,6 +93,16 @@ header .main-nav a {
   color: var(--primary-color);
   font-size: 1.56rem;
 }
+.project-card img {
+  /* filter: grayscale(100%) invert(10%) sepia(8%) saturate(350%)
+    hue-rotate(351deg) brightness(105%) contrast(95%); */
+  filter: sepia(1) hue-rotate(170deg) saturate(95%);
+  /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
+  border: 2px solid #496175;
+}
+.project-card img:hover {
+  filter: none;
+}
 .project-card .info {
   flex-direction: column;
   display: flex;
@@ -125,6 +135,12 @@ header .main-nav a {
   }
 } 
 
+.btn-primary {
+  background: var( --primary-color);
+  color: var(--color-cosmic-latte);
+  font-weight: bold;
+  border: 0 none;
+}
 
 
   
